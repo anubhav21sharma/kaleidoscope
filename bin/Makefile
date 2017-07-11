@@ -1,6 +1,6 @@
 CXX = clang++
 
-CXXFLAGS =	-O3 -g -Wall -fmessage-length=0
+CXXFLAGS =	-O3 -g -Wall -fmessage-length=0 -std=c++11
 
 VPATH = ../src:../include
 
